@@ -9,7 +9,7 @@ terraform {
 
 provider "google" {
   # Credentials only needs to be set if you do not have the GOOGLE_APPLICATION_CREDENTIALS set
-  #  credentials = 
+  credentials = "/workspaces/data-engineering-zoomcamp/01-docker-terraform/1_terraform_gcp/terraform/keys/my_google_credentials.json"
   project = "galvanic-crow-412709"
   region  = "us-central1"
 }
